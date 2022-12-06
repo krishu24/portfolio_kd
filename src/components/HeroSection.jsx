@@ -10,7 +10,6 @@ import Social from './Social';
 import Hidden from '@material-ui/core/Hidden'
 import Zoom from '@material-ui/core/Zoom'
 import {StaticImage} from 'gatsby-plugin-image'
-import backimg from '../images/backimg.jpg'
 
 const useStyles = makeStyles((theme) =>({
     section: {
@@ -60,10 +59,10 @@ export default function HeroSection() {
   const styles = useStyles();
   const [shouldShow, setShouldShow] = useState(false);
   useEffect(() => setShouldShow(true), []);
-  // https://images.unsplash.com/photo-1559163387-e46e8dcb27f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZmZlZSUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60
+  
   return (
     <Paper className={styles.section} pt={8} id="about">
-        <StaticImage className={styles.heroImage} src={backimg}></StaticImage>
+        <StaticImage className={styles.heroImage} src="https://images.unsplash.com/photo-1559163387-e46e8dcb27f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZmZlZSUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"></StaticImage>
         <div className={styles.overlay}>
             <Container className={styles.container} maxWidth="md">
                 <Grid 
