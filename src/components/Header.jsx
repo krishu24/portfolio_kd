@@ -14,7 +14,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import {navigationLinks} from '../variables'
-import avtr from '../static/avatar.png'
+import avtr from '../images/avatar.png'
 
 const useStyles = makeStyles((theme) =>({
     link:{
