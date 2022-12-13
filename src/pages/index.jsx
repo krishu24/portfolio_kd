@@ -18,10 +18,10 @@ export default function indexPage() {
   return (
     <ThemeProvider theme={darkTheme}>
       <div>
-      <Header/>
-      <CssBaseline/>
-      <HeroSection/>
-      <Projects/>
+        <Header/>
+        <CssBaseline/>
+        <HeroSection/>
+        <Projects/>
       </div>
     </ThemeProvider>
   )
