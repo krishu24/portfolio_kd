@@ -17,10 +17,12 @@ darkTheme = responsiveFontSizes(darkTheme);
 export default function indexPage() {
   return (
     <ThemeProvider theme={darkTheme}>
+      <div>
       <Header/>
       <CssBaseline/>
       <HeroSection/>
       <Projects/>
+      </div>
     </ThemeProvider>
   )
 }
